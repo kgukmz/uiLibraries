@@ -1608,7 +1608,7 @@ do
 				table.insert(Library.ThemeObjects, Inline)
 				Inline.BackgroundColor3 = Library.Accent
 				if Toggle.Risk then
-					Title.TextColor3 = Color3.fromRGB(227, 227, 34)
+					Title.TextColor3 = Color3.fromRGB(189, 34, 34)
 				else
 					Title.TextColor3 = Color3.fromRGB(255,255,255)
 				end
@@ -1616,7 +1616,7 @@ do
 				table.remove(Library.ThemeObjects, table.find(Library.ThemeObjects, Inline))
 				Inline.BackgroundColor3 = Color3.new(0.1294,0.1294,0.1294)
 				if Toggle.Risk then
-					Title.TextColor3 = Color3.fromRGB(158, 158, 24)
+					Title.TextColor3 = Color3.fromRGB(189, 34, 34)
 				else
 					Title.TextColor3 = Color3.fromRGB(145,145,145)
 				end
@@ -1637,7 +1637,7 @@ do
 			if not Toggle.Toggled then
 				table.remove(Library.ThemeObjects, table.find(Library.ThemeObjects, Title))
 				if Toggle.Risk then
-					Title.TextColor3 = Color3.fromRGB(158, 158, 24)
+					Title.TextColor3 = Color3.fromRGB(189, 34, 34)
 				else
 					Title.TextColor3 = Color3.fromRGB(145,145,145)
 				end
