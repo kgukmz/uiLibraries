@@ -225,6 +225,8 @@ local Languages = {
 	Z = {English = "Z", Arabic = "ز", Albanian = "Z", Japanese = "は", Spanish = "Z", Russian = "З", Chinese = "贼德", Urdu = "زیڈ", French = "Z", Portuguese = "Z", Hindi = "जेड"}
 }
 
+local NewVector2 = Vector2.new
+
 Library.__index = Library;
 Library.Pages.__index = Library.Pages;
 Library.Sections.__index = Library.Sections;
@@ -2099,7 +2101,7 @@ do
 		Outline.Size = UDim2.new(1,-30,0,7)
 		Outline.BackgroundColor3 = Color3.new(0.1765,0.1765,0.1765)
 		Outline.BorderColor3 = Color3.new(0.0392,0.0392,0.0392)
-		Outline.AnchorPoint = NewVector2(0,1)
+		Outline.AnchorPoint = Vector2.new(0,1)
 		--
 		Inline.Name = "Inline"
 		Inline.Position = UDim2.new(0,1,0,1)
