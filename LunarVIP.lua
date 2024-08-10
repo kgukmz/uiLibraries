@@ -1594,7 +1594,7 @@ do
 		Title.BackgroundTransparency = 1
 		Title.BorderSizePixel = 0
 		Title.BorderColor3 = Color3.new(0,0,0)
-		Title.TextColor3 = Toggle.Risk and Color3.fromRGB(158, 158, 24) or Color3.new(0.5686,0.5686,0.5686)
+		Title.TextColor3 = Toggle.Risk and Color3.fromRGB(189, 34, 34) or Color3.new(0.5686,0.5686,0.5686)
 		Title.FontFace = Font.new("rbxassetid://12187371840")
 		Title.TextSize = Library.FontSize
 		Title.TextXAlignment = Enum.TextXAlignment.Left
