@@ -2261,7 +2261,7 @@ do
 			NewSlider.Visible = Bool
 		end 
 		--
-		Flags[Slider.Flag] = Set
+		Library.Flags[Slider.Flag] = Set
 		Library.Flags[Slider.Flag] = Slider.State
 		Set(Slider.State)
 
