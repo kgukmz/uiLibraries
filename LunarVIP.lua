@@ -2016,7 +2016,7 @@ do
 		end
 		Toggle.Set(Toggle.State)
 		Library.Flags[Toggle.Flag] = Toggle.State
-		Flags[Toggle.Flag] = Toggle.Set
+		Library.Flags[Toggle.Flag] = Toggle.Set
 
 		-- // Returning
 		return Toggle
